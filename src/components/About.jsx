@@ -45,13 +45,13 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] w-full leading-[30px] lg:max-w-5xl'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+I’m a software developer with 2+ years of experience focused on building automation-driven products using React, Spring Boot, and Microsoft Power Platform (PowerApps & Power Automate).
+
+I specialize in transforming manual, time-consuming processes into efficient digital solutions. Through the applications I’ve developed, I’ve helped reduce operational costs, improve productivity, and enable teams to work smarter.
+
+I don’t just write code - I build solutions that deliver real business impact. My goal is to continue creating scalable systems that solve practical problems and drive efficiency.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
