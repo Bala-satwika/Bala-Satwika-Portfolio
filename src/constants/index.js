@@ -13,8 +13,8 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  figma,powerapp,powerautomate,spring,sql,
+  docker,azure,restapi,
   meta,
   starbucks,
   tesla,tvsmotor,tvsnhorse,horse,
@@ -33,6 +33,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id:"projects",
+    title:"Projects",
   },
   {
     id: "contact",
@@ -61,12 +65,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "azure",
+    icon: azure,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "restapi",
+    icon: restapi,
   },
   {
     name: "JavaScript",
@@ -81,12 +85,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "sql",
+    icon: sql,
   },
   {
     name: "Node JS",
@@ -97,16 +97,21 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "spring",
+    icon: spring,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "powerapp",
+    icon: powerapp,
+  },
+  
+  {
+    name: "powerautomate",
+    icon: powerautomate,
   },
   {
     name: "docker",
