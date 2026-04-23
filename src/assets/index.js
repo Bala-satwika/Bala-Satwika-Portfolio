@@ -8,10 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
+import docker from "./tech/docker.png";import azure from "./tech/azure.png";import restapi from "./tech/restapi.png";
+import figma from "./tech/figma.png";import powerapp from "./tech/powerapp.png";import sql from "./tech/sql.png";
+import git from "./tech/git.png";import powerautomate from "./tech/powerautomate.png";
+import html from "./tech/html.png";import spring from "./tech/spring.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -42,7 +42,7 @@ export {
   close,
   css,
   docker,
-  figma,
+  figma,powerapp,powerautomate,spring,sql,azure,restapi,
   git,
   html,
   javascript,
