@@ -127,11 +127,12 @@ const experiences = [
     icon: horse,
     iconBg: "#E6DEDD",
     date: "June 2023 - Aug 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     points: [
+   
+    "Contributed to the initial modernization of the TVS Motor Dealer Management System by developing Angular interfaces for legacy ASP.NET modules.",
+    "Implemented frontend validation and supported backend API and SQL enhancements for migrated functionality.",
+    "Worked with Git/GitHub, testing teams, and pull-request workflows throughout development and deployment."
+  
     ],
   },
   {
@@ -141,11 +142,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2024 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    "Contributed to modernizing the TVS Motor Dealer Management System by migrating four legacy ASP.NET modules to Angular.",
+    "Developed and enhanced backend APIs and SQL procedures while implementing frontend validation and integrating existing application services.",
+    "Built a Dealer Onboarding platform from scratch using Power Apps, Power Automate, SQL Server, and SharePoint, automating a three-stage approval workflow.",
+    "Enabled centralized tracking and automated notifications for 50+ users and 500+ dealer onboarding requests, replacing fragmented email-based coordination."
+  ],
   },
   {
     title: "Digital Engineer",
@@ -154,11 +155,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+       "Built a full-stack voice-recording platform using React, Spring Boot, Azure, and Databricks for 50+ CRM users, 20+ projects, and 5,000+ recordings.",
+  "Developed 10+ Spring Boot REST APIs integrating Databricks and Azure Blob Storage.",
+  "Implemented MSAL SSO, RBAC, and 5-minute SAS URLs for secure recording access.",
+  "Built a 20+ screen Land Acquisition platform used by 50+ users across 7 teams and 5 cities, managing 4,000+ leads.",
+  "Automated approvals, reminders, document management, and dashboards using Power Apps, Power Automate, and SharePoint.",
+  "Optimized a 49K+ record VOWD process, reducing report generation from 2+ hours to ~3 minutes.",
+  "Delivered a quarterly performance-review platform in ~2 weeks for ~300 employees and managers."
+],
   },
 ];
 
@@ -191,25 +195,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TuneMyHire AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI-powered resume analyzer that compares a candidate's resume against a job description and turns the result into an easy-to-understand match score, feedback and actionable suggestions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "OpenAI API",
         color: "pink-text-gradient",
       },
     ],
+   
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://resumechecker-1-075k.onrender.com/",
   },
   {
     name: "Job IT",
