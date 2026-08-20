@@ -217,9 +217,9 @@ const projects = [
     source_code_link: "https://resumechecker-1-075k.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Spend Watch",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+"Built a full-stack subscription and auto-pay tracker that identifies recurring expenses, tracks upcoming payments and visualizes monthly/yearly subscription spending, helping users monitor and manage forgotten recurring payments.",
     tags: [
       {
         name: "react",
@@ -230,7 +230,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
@@ -238,20 +238,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Smart Basket",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "Where should I buy my groceries today? SmartBasket compares product prices across retailers, finds the best-value basket, and shows users how much they can save.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "OpenAI API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
