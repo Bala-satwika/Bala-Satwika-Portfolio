@@ -20,8 +20,9 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Bala Satwika</span>
           </h2>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I digitize manual processes into <br className='sm:block hidden' />
-            automated web and PowerApps solutions
+            I build practical, scalable applications that turn complex business problems into simple digital experiences.
+ <br className='sm:block hidden' />
+            I enjoy taking ideas from “What if?” to production.
           </p>
         </div>
       </div>
